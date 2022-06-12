@@ -1,14 +1,16 @@
+/* Light Mode */
 :root, html[data-theme='light'] {
-    --primary-color: rgb(255,255,255);
-    --secondary-color: ;
+    --primary-color: #01408e;
+    --secondary-color: #3c5d5c;
     --bg-color: rgb(255,255,255);
     --font-color: rgb(0, 0, 0);
     --heading-color: rgb(0, 0, 0);
 }
 
+/* Dark Mode */
 html[data-theme='dark'] {
-    --primary-color: rgb(0,0,0);
-    --secondary-color: ;
+    --primary-color: #8fceff;
+    --secondary-color: #72faca;
     --bg-color: rgb(56,56,56);
     --font-color: rgb(255,255,255);
     --heading-color: ;
