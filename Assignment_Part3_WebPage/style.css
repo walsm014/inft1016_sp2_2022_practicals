@@ -1,6 +1,6 @@
 /* Light Mode */
 :root, html[color-mode='light'] {
-    --primary-color: #01408e;
+    --primary-color: #80E2EE;
     --secondary-color: #3c5d5c;
     --bg-color: rgb(255,255,255);
     --font-color: rgb(0, 0, 0);
@@ -9,7 +9,7 @@
 
 /* Dark Mode */
 html[color-mode='dark'] {
-    --primary-color: #8fceff;
+    --primary-color: #660F12;
     --secondary-color: #72faca;
     --bg-color: rgb(56,56,56);
     --font-color: rgb(255,255,255);
@@ -30,15 +30,8 @@ body {
     background-color: var(--bg-color);
     color: var(--font-color);
     font-family: 'Open Sans', sans-serif;
-font-family: 'Roboto', sans-serif;
-}
-
-header {
-    padding: 60px;
-    text-align: center;
-    background: var(--primary-color);
-    color: white;
-    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 90px;
 }
 
 img#getImage {
